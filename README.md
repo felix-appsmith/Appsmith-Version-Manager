@@ -2,6 +2,16 @@
 
 AVM or Appsmith version manager is a small program created in python that allows us to control the versions of Appsmith, this means we can go from a new version to an old one or from an old version to a new version in a simple way, the program before making the change of version makes a backup copy of the information that Appsmith has so that you do not lose any of your applications in case of a failure.
 
+
+Note: before starting, you must add this in the docker compose line that has the Appsmith image.
+
+Normal:
+`image:index.docker.io/appsmith/appsmith-ce`
+
+As it should be:
+`image: index.docker.io/appsmith/appsmith-ce:v1.9.4`
+
+
 ## Table of Contents
 
 1. [Appsmith Version Manager (AVM)](#appsmith-version-manager-avm)
